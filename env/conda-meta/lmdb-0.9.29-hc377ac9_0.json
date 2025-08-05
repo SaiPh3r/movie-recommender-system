@@ -1,0 +1,121 @@
+{
+  "build": "hc377ac9_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=12.0.0"
+  ],
+  "extracted_package_dir": "/opt/miniconda3/pkgs/lmdb-0.9.29-hc377ac9_0",
+  "files": [
+    "bin/mdb_copy",
+    "bin/mdb_dump",
+    "bin/mdb_load",
+    "bin/mdb_stat",
+    "include/lmdb.h",
+    "lib/liblmdb.a",
+    "lib/liblmdb.so",
+    "share/man/man1/mdb_copy.1",
+    "share/man/man1/mdb_dump.1",
+    "share/man/man1/mdb_load.1",
+    "share/man/man1/mdb_stat.1"
+  ],
+  "fn": "lmdb-0.9.29-hc377ac9_0.conda",
+  "license": "OpenLDAP Public License and BSD 3-clause",
+  "link": {
+    "source": "/opt/miniconda3/pkgs/lmdb-0.9.29-hc377ac9_0",
+    "type": 1
+  },
+  "md5": "64a0a34e619f8641a342d7296590e5c0",
+  "name": "lmdb",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/lmdb-0.9.29-hc377ac9_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/mdb_copy",
+        "path_type": "hardlink",
+        "sha256": "34dee6e4f5cc35219b50b5007b182d276fc4428037519ee644e54cafd237dbc2",
+        "sha256_in_prefix": "34dee6e4f5cc35219b50b5007b182d276fc4428037519ee644e54cafd237dbc2",
+        "size_in_bytes": 133712
+      },
+      {
+        "_path": "bin/mdb_dump",
+        "path_type": "hardlink",
+        "sha256": "00de197f5a6de94a4c3f3333db1f8b32da255b30e76ddb851ecd89679a5992b7",
+        "sha256_in_prefix": "00de197f5a6de94a4c3f3333db1f8b32da255b30e76ddb851ecd89679a5992b7",
+        "size_in_bytes": 134656
+      },
+      {
+        "_path": "bin/mdb_load",
+        "path_type": "hardlink",
+        "sha256": "cfdc212d67ce7c484470700f6e35212c32c97b313cae6110b3d41e28fa270b3e",
+        "sha256_in_prefix": "cfdc212d67ce7c484470700f6e35212c32c97b313cae6110b3d41e28fa270b3e",
+        "size_in_bytes": 151568
+      },
+      {
+        "_path": "bin/mdb_stat",
+        "path_type": "hardlink",
+        "sha256": "c54e33fc2f048eb54e041f914730fc42cadb6eb9a9dde59f42acd3e570823bbe",
+        "sha256_in_prefix": "c54e33fc2f048eb54e041f914730fc42cadb6eb9a9dde59f42acd3e570823bbe",
+        "size_in_bytes": 150544
+      },
+      {
+        "_path": "include/lmdb.h",
+        "path_type": "hardlink",
+        "sha256": "36ae5774157f43232bf8f8ab835c142e3c29722e7d1870dda3532fd4f8008535",
+        "sha256_in_prefix": "36ae5774157f43232bf8f8ab835c142e3c29722e7d1870dda3532fd4f8008535",
+        "size_in_bytes": 74014
+      },
+      {
+        "_path": "lib/liblmdb.a",
+        "path_type": "hardlink",
+        "sha256": "86279e7f8a18793db371b2a72d6bf925788998fc700fbf31ff7e1fd4e13cb324",
+        "sha256_in_prefix": "86279e7f8a18793db371b2a72d6bf925788998fc700fbf31ff7e1fd4e13cb324",
+        "size_in_bytes": 330968
+      },
+      {
+        "_path": "lib/liblmdb.so",
+        "path_type": "hardlink",
+        "sha256": "255aba84caa95768405b18e97d1f837fe82121b8bce51ad50881a94fcc400b7e",
+        "sha256_in_prefix": "255aba84caa95768405b18e97d1f837fe82121b8bce51ad50881a94fcc400b7e",
+        "size_in_bytes": 133072
+      },
+      {
+        "_path": "share/man/man1/mdb_copy.1",
+        "path_type": "hardlink",
+        "sha256": "201bc00529e9ba25e7ad5dd3d6b1b830f22ceccde9352fd2975038e5c0b5aa2d",
+        "sha256_in_prefix": "201bc00529e9ba25e7ad5dd3d6b1b830f22ceccde9352fd2975038e5c0b5aa2d",
+        "size_in_bytes": 1533
+      },
+      {
+        "_path": "share/man/man1/mdb_dump.1",
+        "path_type": "hardlink",
+        "sha256": "fd95dbe39786fd20f23dcafe227b5b0e3ffdf7bf6aa8fcaf924ecd8f35cefad9",
+        "sha256_in_prefix": "fd95dbe39786fd20f23dcafe227b5b0e3ffdf7bf6aa8fcaf924ecd8f35cefad9",
+        "size_in_bytes": 2197
+      },
+      {
+        "_path": "share/man/man1/mdb_load.1",
+        "path_type": "hardlink",
+        "sha256": "716c7e3443f0edd979d4f5a58faf0c532cb679b2ede5b25e321a2db4fb23be2a",
+        "sha256_in_prefix": "716c7e3443f0edd979d4f5a58faf0c532cb679b2ede5b25e321a2db4fb23be2a",
+        "size_in_bytes": 2636
+      },
+      {
+        "_path": "share/man/man1/mdb_stat.1",
+        "path_type": "hardlink",
+        "sha256": "ed3fe4a49d4ad208ce42911abe0fcaaf51d8a7ba9d83c9da438bb7c7b0759232",
+        "sha256_in_prefix": "ed3fe4a49d4ad208ce42911abe0fcaaf51d8a7ba9d83c9da438bb7c7b0759232",
+        "size_in_bytes": 1780
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "eb379c0434eb2f92edc30769e0e3d0c5e1c3a561c72827bcf47efa253e6d36ba",
+  "size": 193500,
+  "subdir": "osx-arm64",
+  "timestamp": 1629010894000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/lmdb-0.9.29-hc377ac9_0.conda",
+  "version": "0.9.29"
+}

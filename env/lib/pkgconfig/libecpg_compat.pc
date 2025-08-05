@@ -1,0 +1,14 @@
+prefix=/Users/saianand/Documents/movie-recommender-system/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+URL: https://www.postgresql.org/
+Version: 17.4
+Requires: 
+Requires.private: libecpg, libpgtypes
+Cflags: -I${includedir}
+Libs: -L${libdir} -lecpg_compat
+Libs.private: -L/Users/saianand/Documents/movie-recommender-system/env/lib -lecpg -lpgcommon -lpgport -lpq -lm
